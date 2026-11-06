@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOT Gourmet Burgers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>SPOT Gourmet Burgers</h1>
+        <p>Gourmet Burger, Fries, Wings, Milkshakes, Salads</p>
+
+    </header>
+
+    <main>
+        <section>
+             <img src="images/SpotB.jpg" alt="SPOT Gourmet Burgers food truck">
+            
+             <h2>Welcome to SPOT!</h2>
+             <P>SPOT Gourmet Burgers serves very good burgers, fries, wings, milkshakes, and salads.
+                We offer food options for everyone looking for somewhere to eat.</P>
+
+             <p><strong>Food:</strong> Gourmet Burger, Fries, Wings, Milkshakes, and Salads</p>
+             <p><strong>Location:</strong> 2821 W Girard Ave, Philadelphia, PA</p>
+
+        </section>
+
+        <h2>Place Your Order</h2>
+        <p>Fill out the form below to place an order.</p>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Customer Information</legend>
+
+                 <label for="name">Customer Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="name">Email Address:</label>
+                <input type="text" id="email" name="email" required>
+
+
+                 <label for="name">Phone Number:</label>
+                <input type="text" id="phone" name="phone" required>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Food Selection</legend>
+
+                <p>Select the food you want:</p>
+
+
+                <input type="checkbox" id="spot" name="food" value="SPOT Special Burger">
+                <label for="spot">SPOT Special Burger - $10.00</label>
+                <p>Beef patty with lettuce, tomato, cheese, and SPOT sauce.</p>
+
+                <input type="checkbox" id="fries" name="food" value="Fries">
+                <label for="fries">Fries - $4.00</label>
+                <p>Freshly made french fries.</p>
+
+                <input type="checkbox" id="wings" name="food" value="Wings">
+                <label for="wing">Wings - $8.00</label>
+                <p>6 count BBQ chicken wings.</p>
+
+                <input type="checkbox" id="milkshakes" name="food" value="Milkshakes">
+                <label for="milkshakes">Milkshakes - $5.00</label>
+                <p>Vanilla, Strawberry, and Cookies & Cream milkshakes.</p>
+
+                <input type="checkbox" id="salads" name="food" value="Salads">
+                <label for="salads">Salads - $8.00</label>
+                <p>Caesar Salad & Greek Salad everything is fresh.</p>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Customize Your Order</legend>
+                <p>Choose your size:</p>
+
+                 <input type="radio" id="small" name="size" value="Small" checked>
+                <label for="small">Small</label>
+
+                <input type="radio" id="large" name="size" value="Large">
+                <label for="large">Large</label>
+
+                <p>Choose your topping:</p>
+
+                <input type="checkbox" id="extracheese" name="toppings" value="Extra Cheese">
+                <label for="extracheese">Extra Cheese</label>
+
+                <input type="checkbox" id="spotsauce" name="toppings" value="SPOT Sauce">
+                <label for="spotsauce">SPOT Sauce</label>
+
+                <input type="checkbox" id="onions" name="toppings" value="Onions">
+                <label for="onions">Onions</label>
+
+                <input type="checkbox" id="pickles" name="toppings" value="Pickles">
+                <label for="pickles">Pickles</label>
+
+                <p>Choose a drink:</p>
+
+                <label for="drink">Drink Selection:</label>
+                <select id="drink" name="drink">
+                    <option value="Water">Water</option>
+                    <option value="Vanilla Milkshake">Vanilla Milkshake</option>
+                    <option value="Strawberry Milkshake">Strawberry Milkshake</option>
+                    <option value="Cookies & Cream Milkshake">Cookies & Cream Milkshake</option>
+                </select>
+
+                 <label for="special">Special Instructions:</label>
+                <textarea id="special" name="special" rows="4"></textarea>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend>PickUp Information</legend>
+
+                  <label for="time">Pickup Date or Time:</label>
+                <input type="text" id="time" name="time" placeholder="Example: Monday at 2 PM">
+
+                <label for="pickupname">Pickup Name (if different):</label>
+                <input type="text" id="pickupname" name="pickupname">
+
+                <label for="pickupinstructions">Pickup Instructions:</label>
+                <textarea id="pickupinstructions" name="pickupinstructions" rows="3"></textarea>
+
+            </fieldset>
+
+            <button type="submit">Submit Order</button>
+            <button type="reset">Reset Form</button>
+
+        </form>
+
+    </main>
+
+        <footer>
+            <p>2026 SPOT Gourmet Burgers Jevon DeVose</p>
+        </footer>
+
+</body>
+</html>
